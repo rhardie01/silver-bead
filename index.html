@@ -2,42 +2,56 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Silver Bead Jewellery</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat|Satisfy&display=swap" rel="stylesheet">
-    <link rel="shortcut icon" href="favicon.png" />
-    <link rel="stylesheet" href="master.css">
-    <link rel="apple-touch-icon" href="apple-touch-icon.png" />
-
-
+    <link rel="stylesheet" type="text/css" href="master.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Satisfy" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <link rel="icon" type="image/png" href="icons/favicon.png">
+    <title>Silver Bead Jewellery</title>
   </head>
   <body>
-    <!-- <script>
+
+    <script>
     document.body.className += ' fade-out';
     $(function() {
           $('body').removeClass('fade-out');
         });
-  </script> -->
+    </script>
 
-    <div class="topmenu">
-      <p class="toplogo">SB</p>
-      <a class="topmenu_link" href="#">
-        <p>Contact</p>
-      </a>
-      <a class="topmenu_link" href="#">
-        <p>Order</p>
-      </a>
-      <a class="topmenu_link" href="#">
-        <p>Home</p>
-      </a>
+    <div class="header">
+      <div class="headContent">
+        <p>Silver Bead Jewellery</p>
+        <div class="headerLine"></div>
+        <div class="menu">
+          <a href="index.html">Home</a>
+          <a href="order.html">Order</a>
+          <a href="events.html">Events</a>
+          <a href="contact.html">Contact</a>
+        </div>
+      </div>
     </div>
 
+    <div class="landing">
+      <div class="landingText">
+        <p class="landingTitle">Front Title</p>
+        <p class="landingPara">text and stuff gotta put something cool here</p>
+      </div>
+      <img class="landingImage" alt="beaded dragon" src="images/bluedragon.JPG">
+    </div>
 
-  <img class="landing_background" src="images/twobeadededit.JPG">
+    <div class="orderBox">
+      <p class="orderTitle">- Order -</p>
+      <div class="itemBox">
 
-  <div class="landinghome">
-    <img class="cutout" src="cutout.png">
-  </div>
+        <div class="item">
+          <img class="itemImg" src="images/bluedragon.JPG">
+          <p class="itemTitle">Item title</p>
+          <p class="itemPrice">10.00</p>
+        </div>
+
+      </div>
+      <a class="orderpageLink" href="#">See more</a>
+    </div>
 
 
   </body>

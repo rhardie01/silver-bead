@@ -94,6 +94,14 @@ body.fade-out {
   cursor: pointer;
 }
 
+.footer {
+  position: absolute;
+  width: 100%;
+  height: 200px;
+  left: 0;
+  border-top: 1px solid #aeaeae;
+}
+
 /* index.html */
 .landing {
   position: absolute;
@@ -234,10 +242,64 @@ body.fade-out {
   top: 170px;
 }
 
-.footer {
+/* order.html */
+
+.filterBox {
   position: absolute;
-  width: 100%;
-  height: 200px;
-  left: 0;
-  border-top: 1px solid #aeaeae;
+  width: 200px;
+  height: 300px;
+  top: 200px;
+  left: 170px;
+}
+
+.filterTitle {
+  position: absolute;
+  font-family: Montserrat;
+}
+
+.filterLinks {
+  position: absolute;
+  font-family: Montserrat;
+  top: 50px;
+  width: 200px;
+  height: 250px;
+  border-top: .5px solid #aeaeae;
+}
+
+.filterLinks a {
+  position: relative;
+  color: #000;
+  text-decoration: none;
+  margin: 10px;
+  height: 30px;
+}
+
+.filterLinks a:hover {
+  color: #606060;
+  cursor: pointer;
+}
+
+.products {
+  position: absolute;
+  width: 900px;
+  height: 600px;
+  left: 450px;
+  top: 200px;
+}
+
+.orderpageItem {
+  position: relative;
+  height: 220px;
+  width: 200px;
+  display: flex;
+  overflow: hidden;
+  justify-content: center;
+  margin: 0px 25px 30px 25px;
+  float: left;
+  box-shadow: 0px 1px 10px 1px #AEAEAE;
+}
+
+.orderpageItem:hover {
+  box-shadow: 10px 20px 40px #AEAEAE;
+  transition: 0.5s;
 }

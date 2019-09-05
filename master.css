@@ -186,6 +186,7 @@ body.fade-out {
 .item:hover {
   box-shadow: 10px 20px 40px #AEAEAE;
   transition: 0.5s;
+  cursor: pointer;
 }
 
 .itemImg {
@@ -249,7 +250,7 @@ body.fade-out {
   width: 200px;
   height: 300px;
   top: 200px;
-  left: 170px;
+  left: 187px;
 }
 
 .filterTitle {
@@ -272,6 +273,7 @@ body.fade-out {
   text-decoration: none;
   margin: 10px;
   height: 30px;
+  width: 50px;
 }
 
 .filterLinks a:hover {
@@ -283,14 +285,14 @@ body.fade-out {
   position: absolute;
   width: 900px;
   height: 600px;
-  left: 450px;
+  left: 495px;
   top: 200px;
 }
 
 .orderpageItem {
   position: relative;
-  height: 220px;
-  width: 200px;
+  height: 242px;
+  width: 220px;
   display: flex;
   overflow: hidden;
   justify-content: center;
@@ -302,4 +304,27 @@ body.fade-out {
 .orderpageItem:hover {
   box-shadow: 10px 20px 40px #AEAEAE;
   transition: 0.5s;
+  cursor: pointer;
 }
+
+.orderpageitemImg {
+  position: absolute;
+  width: 198px;
+  top: 10px;
+}
+
+.orderpageitemTitle {
+  position: absolute;
+  top: 143px;
+  font-family: Satisfy;
+  font-size: 22px;
+}
+
+.orderpageitemPrice {
+  position: absolute;
+  top: 187px;
+  font-family: Montserrat;
+  font-size: 14px;
+}
+
+/* orderpages - filter */

@@ -39,7 +39,7 @@ body.fade-out {
 
 .header p {
   position: relative;
-  font-family: Satisfy;
+  font-family: brusher;
   font-size: 38px;
   margin: 30px 20px 10px 20px;
 }
@@ -123,7 +123,7 @@ body.fade-out {
 }
 
 .landingTitle {
-  font-family: Satisfy;
+  font-family: brusher;
   font-size: 32px;
 }
 
@@ -152,7 +152,7 @@ body.fade-out {
 }
 
 .orderTitle {
-  font-family: Satisfy;
+  font-family: brusher;
   font-size: 28px;
 }
 
@@ -198,7 +198,7 @@ body.fade-out {
 .itemTitle {
   position: absolute;
   top: 130px;
-  font-family: Satisfy;
+  font-family: brusher;
   font-size: 20px;
 }
 
@@ -230,7 +230,7 @@ body.fade-out {
   margin: 20px;
   left: 670px;
   top: 100px;
-  font-family: Satisfy;
+  font-family: brusher;
   font-size: 32px;
 }
 
@@ -250,7 +250,7 @@ body.fade-out {
   width: 200px;
   height: 300px;
   top: 200px;
-  left: 187px;
+  left: 7rem;
 }
 
 .filterTitle {
@@ -285,7 +285,7 @@ body.fade-out {
   position: absolute;
   width: 900px;
   height: 600px;
-  left: 495px;
+  left: 22rem;
   top: 200px;
 }
 
@@ -316,7 +316,7 @@ body.fade-out {
 .orderpageitemTitle {
   position: absolute;
   top: 143px;
-  font-family: Satisfy;
+  font-family: brusher;
   font-size: 22px;
 }
 
@@ -327,4 +327,25 @@ body.fade-out {
   font-size: 14px;
 }
 
-/* orderpages - filter */
+/* events.html */
+.eventCard {
+  position: absolute;
+  width: 300px;
+  height: 500px;
+  border: 1px solid #fff;
+  background-color: #f7f7f7;
+  border-radius: 20px;
+  left: 100px;
+  top: 100px;
+
+  box-shadow:
+    7px 7px 15px rgba(55, 84, 170,.15),
+    -7px -7px 20px rgba(255, 255, 255,1),
+    inset 0px 0px 4px rgba(255, 255, 255,.2);
+}
+
+/* contact.html */
+.contactbox {
+  position: absolute;
+
+}
